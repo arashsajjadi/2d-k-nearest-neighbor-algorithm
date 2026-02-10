@@ -168,3 +168,8 @@ Clone the repo, install dependencies, and run the script.
 ## 16. Conclusion
 Continuous spatial data requires continuous metrics.
 
+# 0 to 100: K-Nearest Neighbors (KNN) in 2D Space
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24+-orange.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.20+-blue.svg)
+
