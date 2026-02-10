@@ -173,3 +173,6 @@ Continuous spatial data requires continuous metrics.
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24+-orange.svg)
 ![NumPy](https://img.shields.io/badge/NumPy-1.20+-blue.svg)
 
+## 1. Introduction to the Repository
+This repository is not just a simple application of a machine learning library. It is a deep dive into the mathematical, geometrical, and computational foundations of the K-Nearest Neighbors (KNN) algorithm.
+
