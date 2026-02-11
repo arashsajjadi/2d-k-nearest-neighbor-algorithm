@@ -178,3 +178,6 @@ This repository is not just a simple application of a machine learning library. 
 
 We will explore everything from the theoretical proofs of asymptotic error rates to the line-by-line syntax of the Python implementation used to partition a 2D topological space.
 
+## 2. Machine Learning Paradigm
+In the broad spectrum of Artificial Intelligence, ML is divided into several paradigms. KNN falls under **Supervised Learning**, specifically solving **Classification** problems.
+
