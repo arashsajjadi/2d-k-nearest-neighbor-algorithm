@@ -176,3 +176,5 @@ Continuous spatial data requires continuous metrics.
 ## 1. Introduction to the Repository
 This repository is not just a simple application of a machine learning library. It is a deep dive into the mathematical, geometrical, and computational foundations of the K-Nearest Neighbors (KNN) algorithm.
 
+We will explore everything from the theoretical proofs of asymptotic error rates to the line-by-line syntax of the Python implementation used to partition a 2D topological space.
+
