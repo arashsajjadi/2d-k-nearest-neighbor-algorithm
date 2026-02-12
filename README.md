@@ -181,3 +181,5 @@ We will explore everything from the theoretical proofs of asymptotic error rates
 ## 2. Machine Learning Paradigm
 In the broad spectrum of Artificial Intelligence, ML is divided into several paradigms. KNN falls under **Supervised Learning**, specifically solving **Classification** problems.
 
+However, unlike neural networks or decision trees, KNN is an **Instance-Based Learning** (or lazy learning) algorithm.
+
