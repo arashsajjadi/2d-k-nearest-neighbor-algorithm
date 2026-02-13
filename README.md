@@ -183,3 +183,6 @@ In the broad spectrum of Artificial Intelligence, ML is divided into several par
 
 However, unlike neural networks or decision trees, KNN is an **Instance-Based Learning** (or lazy learning) algorithm.
 
+### Lazy vs. Eager Learning
+Eager learners construct a generalized mathematical model from the training data (e.g., finding the weights in linear regression) before receiving any new queries.
+
