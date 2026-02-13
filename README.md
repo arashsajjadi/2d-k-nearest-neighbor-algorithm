@@ -186,3 +186,5 @@ However, unlike neural networks or decision trees, KNN is an **Instance-Based Le
 ### Lazy vs. Eager Learning
 Eager learners construct a generalized mathematical model from the training data (e.g., finding the weights in linear regression) before receiving any new queries.
 
+KNN is "lazy" because it completely bypasses the model-building phase. The training phase is simply storing the dataset in memory $O(1)$ time complexity. All the computational heavy lifting is deferred to the inference (prediction) phase.
+
