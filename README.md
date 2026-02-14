@@ -196,3 +196,6 @@ Here, $x_i \in \mathbb{R}^d$ represents a feature vector in a $d$-dimensional sp
 ### The Core Equation
 Given a novel query point $x_q$, the algorithm identifies a subset $S \subset D$ consisting of the $k$ points closest to $x_q$. The predicted class $\hat{y}$ is determined by the mode (majority vote) of the labels in $S$:
 
+$$ \hat{y} = \underset{v \in Y}{\text{argmax}} \sum_{i=1}^{k} I(y_i = v) $$
+Where $I(\cdot)$ is the indicator function, which equals 1 if the condition is true and 0 otherwise.
+
