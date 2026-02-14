@@ -193,3 +193,6 @@ Let us define our feature space mathematically. Let our dataset be denoted as $D
 
 Here, $x_i \in \mathbb{R}^d$ represents a feature vector in a $d$-dimensional space, and $y_i \in \{c_1, c_2, \dots, c_m\}$ represents the discrete class labels. In our specific project, $d=2$ (2D space) and $m=2$ (Binary classification: True/False).
 
+### The Core Equation
+Given a novel query point $x_q$, the algorithm identifies a subset $S \subset D$ consisting of the $k$ points closest to $x_q$. The predicted class $\hat{y}$ is determined by the mode (majority vote) of the labels in $S$:
+
