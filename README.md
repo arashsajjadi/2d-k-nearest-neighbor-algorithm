@@ -188,3 +188,6 @@ Eager learners construct a generalized mathematical model from the training data
 
 KNN is "lazy" because it completely bypasses the model-building phase. The training phase is simply storing the dataset in memory $O(1)$ time complexity. All the computational heavy lifting is deferred to the inference (prediction) phase.
 
+## 3. The Mathematical Foundation of KNN
+Let us define our feature space mathematically. Let our dataset be denoted as $D = \{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}$.
+
