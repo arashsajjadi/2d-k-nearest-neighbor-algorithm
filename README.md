@@ -199,3 +199,6 @@ Given a novel query point $x_q$, the algorithm identifies a subset $S \subset D$
 $$ \hat{y} = \underset{v \in Y}{\text{argmax}} \sum_{i=1}^{k} I(y_i = v) $$
 Where $I(\cdot)$ is the indicator function, which equals 1 if the condition is true and 0 otherwise.
 
+## 4. Theoretical Guarantees: Cover and Hart Theorem
+Why do we trust such a simple algorithm? In 1967, Thomas Cover and Peter Hart published a landmark paper proving the theoretical limits of the 1-NN algorithm.
+
