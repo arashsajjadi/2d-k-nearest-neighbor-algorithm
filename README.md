@@ -191,3 +191,5 @@ KNN is "lazy" because it completely bypasses the model-building phase. The train
 ## 3. The Mathematical Foundation of KNN
 Let us define our feature space mathematically. Let our dataset be denoted as $D = \{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}$.
 
+Here, $x_i \in \mathbb{R}^d$ represents a feature vector in a $d$-dimensional space, and $y_i \in \{c_1, c_2, \dots, c_m\}$ represents the discrete class labels. In our specific project, $d=2$ (2D space) and $m=2$ (Binary classification: True/False).
+
