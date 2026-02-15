@@ -212,3 +212,5 @@ $$ R^* \leq R_{1NN} \leq R^*\left(2 - \frac{c}{c-1}R^*\right) $$
 
 Where $c$ is the number of classes. For binary classification ($c=2$), the upper bound simplifies to $2R^* - (R^*)^2$.
 
+**Proof Intuition:** As $n \to \infty$, the nearest neighbor $x_{NN}$ to our query $x_q$ becomes infinitely close ($x_{NN} \approx x_q$). Therefore, the probability that 1-NN makes an error is the probability that the true label of $x_q$ differs from the true label of $x_{NN}$, which is governed by the Bayes risk.
+
