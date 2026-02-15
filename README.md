@@ -208,3 +208,5 @@ The Bayes error rate is the lowest possible error rate for any classifier on a g
 ### The Theorem
 Cover and Hart mathematically proved that as the number of training samples approaches infinity ($n \to \infty$), the error rate of the 1-Nearest Neighbor algorithm ($R_{1NN}$) is bounded:
 
+$$ R^* \leq R_{1NN} \leq R^*\left(2 - \frac{c}{c-1}R^*\right) $$
+
