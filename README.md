@@ -210,3 +210,5 @@ Cover and Hart mathematically proved that as the number of training samples appr
 
 $$ R^* \leq R_{1NN} \leq R^*\left(2 - \frac{c}{c-1}R^*\right) $$
 
+Where $c$ is the number of classes. For binary classification ($c=2$), the upper bound simplifies to $2R^* - (R^*)^2$.
+
