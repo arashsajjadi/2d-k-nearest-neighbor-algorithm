@@ -205,3 +205,6 @@ Why do we trust such a simple algorithm? In 1967, Thomas Cover and Peter Hart pu
 ### The Bayes Error Rate ($R^*$)
 The Bayes error rate is the lowest possible error rate for any classifier on a given dataset, assuming we have absolute, perfect knowledge of the true underlying probability distributions (which is impossible in reality).
 
+### The Theorem
+Cover and Hart mathematically proved that as the number of training samples approaches infinity ($n \to \infty$), the error rate of the 1-Nearest Neighbor algorithm ($R_{1NN}$) is bounded:
+
