@@ -223,3 +223,7 @@ The entire algorithm relies on how we define "closeness" or "proximity." In topo
 3. Symmetry: $d(x,y) = d(y,x)$
 4. Triangle Inequality: $d(x,z) \leq d(x,y) + d(y,z)$
 
+### The Minkowski Distance (The Generalized Metric)
+Most continuous spatial metrics are special cases of the Minkowski distance ($L_p$ norm):
+$$ d(x, y) = \left( \sum_{i=1}^{n} |x_i - y_i|^p \right)^{\frac{1}{p}} $$
+
