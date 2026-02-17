@@ -227,3 +227,7 @@ The entire algorithm relies on how we define "closeness" or "proximity." In topo
 Most continuous spatial metrics are special cases of the Minkowski distance ($L_p$ norm):
 $$ d(x, y) = \left( \sum_{i=1}^{n} |x_i - y_i|^p \right)^{\frac{1}{p}} $$
 
+### 5.1 Euclidean Distance ($p=2$)
+When $p=2$, we get the standard Euclidean distance. It measures the shortest straight-line path between two points.
+$$ d_{euc}(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} $$
+
