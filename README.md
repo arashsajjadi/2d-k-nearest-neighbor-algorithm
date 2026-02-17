@@ -231,3 +231,5 @@ $$ d(x, y) = \left( \sum_{i=1}^{n} |x_i - y_i|^p \right)^{\frac{1}{p}} $$
 When $p=2$, we get the standard Euclidean distance. It measures the shortest straight-line path between two points.
 $$ d_{euc}(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} $$
 
+**Application:** This is the default in scikit-learn (`metric='minkowski', p=2`) and is highly effective for isotropic spatial data, which perfectly matches our 2D coordinate plane. Our results showed excellent accuracy (**72.13%**).
+
