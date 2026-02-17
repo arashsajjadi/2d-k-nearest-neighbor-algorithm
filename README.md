@@ -216,3 +216,10 @@ Where $c$ is the number of classes. For binary classification ($c=2$), the upper
 
 **Conclusion:** 1-NN is incredibly powerful. Even without building a model, given enough data, its error rate is at worst twice the theoretical minimum possible error!
 
+## 5. Distance Metrics: The Engine of KNN
+The entire algorithm relies on how we define "closeness" or "proximity." In topology and metric spaces, a distance function $d(x, y)$ must satisfy four axioms:
+1. Non-negativity: $d(x,y) \geq 0$
+2. Identity of indiscernibles: $d(x,y) = 0 \iff x = y$
+3. Symmetry: $d(x,y) = d(y,x)$
+4. Triangle Inequality: $d(x,z) \leq d(x,y) + d(y,z)$
+
