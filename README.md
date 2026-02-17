@@ -233,3 +233,7 @@ $$ d_{euc}(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} $$
 
 **Application:** This is the default in scikit-learn (`metric='minkowski', p=2`) and is highly effective for isotropic spatial data, which perfectly matches our 2D coordinate plane. Our results showed excellent accuracy (**72.13%**).
 
+### 5.2 Manhattan Distance ($p=1$)
+Also known as the Taxicab geometry or $L_1$ norm. It restricts movement to axis-aligned directions.
+$$ d_{man}(\mathbf{x}, \mathbf{y}) = \sum_{i=1}^{n} |x_i - y_i| $$
+
