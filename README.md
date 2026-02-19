@@ -243,3 +243,5 @@ $$ d_{man}(\mathbf{x}, \mathbf{y}) = \sum_{i=1}^{n} |x_i - y_i| $$
 Cosine similarity measures the cosine of the angle $\theta$ between two non-zero vectors. The distance is defined as $1 - \text{similarity}$.
 $$ d_{cos}(\mathbf{x}, \mathbf{y}) = 1 - \frac{\mathbf{x} \cdot \mathbf{y}}{\|\mathbf{x}\|_2 \|\mathbf{y}\|_2} $$
 
+**Why did it win?** In our results, Cosine distance slightly outperformed Euclidean (**72.33%**). Why? Because our generative function $C(x,y) = 2\sin(x/y) + 2\cos(xy) + 0.15$ relies heavily on the ratio $x/y$ (which defines the angle from the origin). Thus, angular separation was a highly discriminative feature!
+
