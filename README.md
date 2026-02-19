@@ -239,3 +239,7 @@ $$ d_{man}(\mathbf{x}, \mathbf{y}) = \sum_{i=1}^{n} |x_i - y_i| $$
 
 **Proof of Robustness:** Because differences are not squared, Manhattan distance is significantly less sensitive to extreme outliers than Euclidean. In our topological space, it performed comparably well (**72.00%**).
 
+### 5.3 Cosine Distance
+Cosine similarity measures the cosine of the angle $\theta$ between two non-zero vectors. The distance is defined as $1 - \text{similarity}$.
+$$ d_{cos}(\mathbf{x}, \mathbf{y}) = 1 - \frac{\mathbf{x} \cdot \mathbf{y}}{\|\mathbf{x}\|_2 \|\mathbf{y}\|_2} $$
+
