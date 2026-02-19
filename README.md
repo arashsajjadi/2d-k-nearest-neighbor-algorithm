@@ -237,3 +237,5 @@ $$ d_{euc}(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} $$
 Also known as the Taxicab geometry or $L_1$ norm. It restricts movement to axis-aligned directions.
 $$ d_{man}(\mathbf{x}, \mathbf{y}) = \sum_{i=1}^{n} |x_i - y_i| $$
 
+**Proof of Robustness:** Because differences are not squared, Manhattan distance is significantly less sensitive to extreme outliers than Euclidean. In our topological space, it performed comparably well (**72.00%**).
+
