@@ -245,3 +245,6 @@ $$ d_{cos}(\mathbf{x}, \mathbf{y}) = 1 - \frac{\mathbf{x} \cdot \mathbf{y}}{\|\m
 
 **Why did it win?** In our results, Cosine distance slightly outperformed Euclidean (**72.33%**). Why? Because our generative function $C(x,y) = 2\sin(x/y) + 2\cos(xy) + 0.15$ relies heavily on the ratio $x/y$ (which defines the angle from the origin). Thus, angular separation was a highly discriminative feature!
 
+### 5.4 Jaccard and Hamming (The Discrete Metrics)
+Both of these metrics yielded terrible accuracy (**~55%**, close to random guessing). We must understand why from a mathematical standpoint.
+
