@@ -248,3 +248,6 @@ $$ d_{cos}(\mathbf{x}, \mathbf{y}) = 1 - \frac{\mathbf{x} \cdot \mathbf{y}}{\|\m
 ### 5.4 Jaccard and Hamming (The Discrete Metrics)
 Both of these metrics yielded terrible accuracy (**~55%**, close to random guessing). We must understand why from a mathematical standpoint.
 
+**Hamming Distance:** Measures the proportion of coordinates that differ completely.
+$$ d_{ham}(\mathbf{x}, \mathbf{y}) = \frac{1}{n} \sum_{i=1}^{n} I(x_i \neq y_i) $$
+
