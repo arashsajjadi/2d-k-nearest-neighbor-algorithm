@@ -260,3 +260,6 @@ Let $r$ be the radius of a hypersphere inscribed in a hypercube of side length $
 
 This means in high dimensions, almost all the volume of the space is concentrated in the corners. As a result, the distance between any point and its nearest neighbor becomes almost identical to the distance to its farthest neighbor. Proximity loses its mathematical meaning.
 
+## 7. Deep Dive: Code Syntax and Logic Breakdown
+Let us analyze the Python implementation provided in this repository line by line.
+
