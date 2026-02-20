@@ -258,3 +258,5 @@ While KNN works beautifully in our 2D space, it fundamentally breaks down in hig
 
 Let $r$ be the radius of a hypersphere inscribed in a hypercube of side length $2r$. As $d \to \infty$, the ratio of the volume of the hypersphere to the hypercube approaches 0.
 
+This means in high dimensions, almost all the volume of the space is concentrated in the corners. As a result, the distance between any point and its nearest neighbor becomes almost identical to the distance to its farthest neighbor. Proximity loses its mathematical meaning.
+
