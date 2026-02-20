@@ -251,3 +251,5 @@ Both of these metrics yielded terrible accuracy (**~55%**, close to random guess
 **Hamming Distance:** Measures the proportion of coordinates that differ completely.
 $$ d_{ham}(\mathbf{x}, \mathbf{y}) = \frac{1}{n} \sum_{i=1}^{n} I(x_i \neq y_i) $$
 
+**The Mathematical Failure:** Our dataset consists of continuous `float` coordinates. The probability of two random floats being exactly equal ($x_i = y_i$) is practically zero. Therefore, Hamming distance viewed almost all points as entirely dissimilar, destroying the concept of localized neighborhoods. Discrete metrics are for text and categorical data, NOT spatial coordinates.
+
