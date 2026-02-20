@@ -256,3 +256,5 @@ $$ d_{ham}(\mathbf{x}, \mathbf{y}) = \frac{1}{n} \sum_{i=1}^{n} I(x_i \neq y_i) 
 ## 6. The Curse of Dimensionality
 While KNN works beautifully in our 2D space, it fundamentally breaks down in high dimensions ($d > 10$). 
 
+Let $r$ be the radius of a hypersphere inscribed in a hypercube of side length $2r$. As $d \to \infty$, the ratio of the volume of the hypersphere to the hypercube approaches 0.
+
