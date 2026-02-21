@@ -285,3 +285,9 @@ wf.plot_surface(Xfroshow, Yfroshow2, Zforshow, alpha=1, color='yellow')
 ```
 We project our complex mathematical function into a 3D space, where the Z-axis represents the output $C(x,y)$. We then intersect this surface with a flat plane at $Z = 0.5$ (colored black in the code) to visually demonstrate where the decision boundary splits the space.
 
+### 7.4 Random Sampling and Array Population
+```python
+rndx = 20*np.random.rand(1980) - 10
+```
+`np.random.rand` generates values between $[0, 1)$. By multiplying by 20 and subtracting 10, we scale and shift the distribution to our target domain: $[-10, 10]$.
+
