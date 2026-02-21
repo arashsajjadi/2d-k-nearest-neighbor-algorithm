@@ -271,3 +271,10 @@ def true_label(x,y):
 ```
 This is our oracle. We define a highly non-linear, trigonometric boundary. The term $\sin(x/y)$ creates radial patterns, while $\cos(xy)$ creates hyperbolic ripples.
 
+### 7.2 Creating the Space with `meshgrid`
+```python
+x = np.linspace(-10, 10, N)
+X, Y = np.meshgrid(x, y)
+```
+`np.linspace` creates evenly spaced arrays. `np.meshgrid` is a crucial NumPy function that takes two 1D arrays and creates two 2D matrices representing every possible $(X, Y)$ coordinate combination. This is necessary for plotting surfaces.
+
