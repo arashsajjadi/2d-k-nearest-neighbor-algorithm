@@ -293,3 +293,10 @@ rndx = 20*np.random.rand(1980) - 10
 
 We then iterate through these points, passing them through `true_label()` to separate them into Red (`True`) and Blue (`False`) lists. This forms our raw dataset.
 
+### 7.5 Plotting the 2D Contour
+```python
+plt.contourf(x, y, z, colors=['blue','red'], alpha=0.15)
+plt.scatter(Rrndx, Rrndy, color='red', s=4.5)
+```
+`contourf` draws filled contours based on our matrices, showing the true decision areas as a background. We then overlay our sampled points using `scatter`.
+
