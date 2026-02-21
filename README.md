@@ -291,3 +291,5 @@ rndx = 20*np.random.rand(1980) - 10
 ```
 `np.random.rand` generates values between $[0, 1)$. By multiplying by 20 and subtracting 10, we scale and shift the distribution to our target domain: $[-10, 10]$.
 
+We then iterate through these points, passing them through `true_label()` to separate them into Red (`True`) and Blue (`False`) lists. This forms our raw dataset.
+
