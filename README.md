@@ -263,3 +263,11 @@ This means in high dimensions, almost all the volume of the space is concentrate
 ## 7. Deep Dive: Code Syntax and Logic Breakdown
 Let us analyze the Python implementation provided in this repository line by line.
 
+### 7.1 Data Generation and The True Boundary
+```python
+def true_label(x,y):
+    c = 2*np.sin(x/y) + 2*np.cos(x*y) + 0.15
+    return c > 0.5
+```
+This is our oracle. We define a highly non-linear, trigonometric boundary. The term $\sin(x/y)$ creates radial patterns, while $\cos(xy)$ creates hyperbolic ripples.
+
