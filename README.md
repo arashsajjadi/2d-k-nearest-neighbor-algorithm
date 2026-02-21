@@ -278,3 +278,10 @@ X, Y = np.meshgrid(x, y)
 ```
 `np.linspace` creates evenly spaced arrays. `np.meshgrid` is a crucial NumPy function that takes two 1D arrays and creates two 2D matrices representing every possible $(X, Y)$ coordinate combination. This is necessary for plotting surfaces.
 
+### 7.3 Visualization using `mplot3d`
+```python
+wf = plt.axes(projection='3d')
+wf.plot_surface(Xfroshow, Yfroshow2, Zforshow, alpha=1, color='yellow')
+```
+We project our complex mathematical function into a 3D space, where the Z-axis represents the output $C(x,y)$. We then intersect this surface with a flat plane at $Z = 0.5$ (colored black in the code) to visually demonstrate where the decision boundary splits the space.
+
