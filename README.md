@@ -306,3 +306,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, zrnd)
 ```
 We use `scikit-learn`'s utility to split our data. By default, it shuffles the data and allocates 75% to training and 25% to testing/validation. This is critical to prevent **Data Leakage**.
 
+## 8. Hyperparameter Tuning: Finding $K$
+The parameter $k$ (number of neighbors) is the most critical hyperparameter in KNN. It dictates the Bias-Variance tradeoff.
+
