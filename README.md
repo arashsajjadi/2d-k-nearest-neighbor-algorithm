@@ -309,3 +309,8 @@ We use `scikit-learn`'s utility to split our data. By default, it shuffles the d
 ## 8. Hyperparameter Tuning: Finding $K$
 The parameter $k$ (number of neighbors) is the most critical hyperparameter in KNN. It dictates the Bias-Variance tradeoff.
 
+### Small $k$ (e.g., $k=1$)
+* **Low Bias, High Variance.**
+* The decision boundary becomes highly jagged and sensitive to noise.
+* It fits the training data perfectly (0% training error) but is highly prone to **Overfitting**.
+
