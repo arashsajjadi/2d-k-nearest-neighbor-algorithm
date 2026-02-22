@@ -314,3 +314,8 @@ The parameter $k$ (number of neighbors) is the most critical hyperparameter in K
 * The decision boundary becomes highly jagged and sensitive to noise.
 * It fits the training data perfectly (0% training error) but is highly prone to **Overfitting**.
 
+### Large $k$ (e.g., $k=100$)
+* **High Bias, Low Variance.**
+* The decision boundary becomes smooth and simple.
+* If $k = N$ (total samples), the model simply predicts the most frequent class in the dataset, leading to severe **Underfitting**.
+
