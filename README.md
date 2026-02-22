@@ -300,3 +300,9 @@ plt.scatter(Rrndx, Rrndy, color='red', s=4.5)
 ```
 `contourf` draws filled contours based on our matrices, showing the true decision areas as a background. We then overlay our sampled points using `scatter`.
 
+### 7.6 Machine Learning Preparation
+```python
+X_train, X_test, y_train, y_test = train_test_split(X, zrnd)
+```
+We use `scikit-learn`'s utility to split our data. By default, it shuffles the data and allocates 75% to training and 25% to testing/validation. This is critical to prevent **Data Leakage**.
+
