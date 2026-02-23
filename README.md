@@ -319,3 +319,13 @@ The parameter $k$ (number of neighbors) is the most critical hyperparameter in K
 * The decision boundary becomes smooth and simple.
 * If $k = N$ (total samples), the model simply predicts the most frequent class in the dataset, leading to severe **Underfitting**.
 
+### 8.1 The Tuning Loop
+```python
+KS = []
+for i in range(1, 300):
+    knn = KNeighborsClassifier(n_neighbors=i)
+    knn.fit(X_train, y_train)
+    KS.append(knn.score(X_test, y_test))
+```
+We initialize the classifier, `fit` it (which internally structures the data, often using a KD-Tree `O(N log N)`), and calculate the accuracy on our validation set.
+
