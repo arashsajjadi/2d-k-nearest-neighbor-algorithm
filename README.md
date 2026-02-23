@@ -329,3 +329,5 @@ for i in range(1, 300):
 ```
 We initialize the classifier, `fit` it (which internally structures the data, often using a KD-Tree `O(N log N)`), and calculate the accuracy on our validation set.
 
+We iterate from $k=1$ to $k=300$, appending the accuracies to the `KS` list to visualize the accuracy curve.
+
