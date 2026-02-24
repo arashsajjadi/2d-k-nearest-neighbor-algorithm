@@ -334,3 +334,5 @@ We iterate from $k=1$ to $k=300$, appending the accuracies to the `KS` list to v
 ## 9. Model Evaluation against a True Blind Test Set
 Because we generated the data mathematically, we have a unique advantage: we can generate a brand new, completely unseen set of 1500 points (`rndxtest`, `rndytest`).
 
+We select the optimal $k$ found during validation (using `np.max(KS)` and `index()`) and evaluate it against this absolute blind test set to simulate real-world generalization.
+
