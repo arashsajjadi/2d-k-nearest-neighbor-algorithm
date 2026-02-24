@@ -336,3 +336,9 @@ Because we generated the data mathematically, we have a unique advantage: we can
 
 We select the optimal $k$ found during validation (using `np.max(KS)` and `index()`) and evaluate it against this absolute blind test set to simulate real-world generalization.
 
+### 9.1 Applying Different Metrics
+```python
+knn = KNeighborsClassifier(n_neighbors=i, metric='manhattan')
+```
+We repeat the entire tuning and evaluation process changing the `metric` parameter in `scikit-learn`.
+
