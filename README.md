@@ -345,3 +345,9 @@ We repeat the entire tuning and evaluation process changing the `metric` paramet
 ## 10. Matplotlib Graph Analysis
 The code culminates in a massive plot comparing the accuracy curves of all metrics across both validation and test sets.
 
+```python
+plt.plot(np.arange(1,300,1), KS, lw=0.35, label='Validation', ls='--')
+plt.plot(np.arange(1,300,1), KSTEST, lw=0.35, label='Test', ls=':')
+```
+By analyzing these curves, we observe the exact point where increasing $k$ causes the accuracy to plummet due to underfitting.
+
