@@ -342,3 +342,6 @@ knn = KNeighborsClassifier(n_neighbors=i, metric='manhattan')
 ```
 We repeat the entire tuning and evaluation process changing the `metric` parameter in `scikit-learn`.
 
+## 10. Matplotlib Graph Analysis
+The code culminates in a massive plot comparing the accuracy curves of all metrics across both validation and test sets.
+
