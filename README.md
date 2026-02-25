@@ -356,3 +356,5 @@ Finally, a Bar Chart (`plt.bar`) provides a clear, concise visual summary of the
 ## 11. Final Remarks and Conclusions
 This project is a testament to the fact that Machine Learning is not a black box.
 
+Simply calling `.fit()` and `.predict()` is not enough. An engineer must understand the topology of their feature space. 
+
