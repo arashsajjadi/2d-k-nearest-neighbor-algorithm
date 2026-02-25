@@ -351,3 +351,5 @@ plt.plot(np.arange(1,300,1), KSTEST, lw=0.35, label='Test', ls=':')
 ```
 By analyzing these curves, we observe the exact point where increasing $k$ causes the accuracy to plummet due to underfitting.
 
+Finally, a Bar Chart (`plt.bar`) provides a clear, concise visual summary of the absolute best accuracies achieved by each metric.
+
