@@ -353,3 +353,6 @@ By analyzing these curves, we observe the exact point where increasing $k$ cause
 
 Finally, a Bar Chart (`plt.bar`) provides a clear, concise visual summary of the absolute best accuracies achieved by each metric.
 
+## 11. Final Remarks and Conclusions
+This project is a testament to the fact that Machine Learning is not a black box.
+
