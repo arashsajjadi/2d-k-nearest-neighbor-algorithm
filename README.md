@@ -358,3 +358,5 @@ This project is a testament to the fact that Machine Learning is not a black box
 
 Simply calling `.fit()` and `.predict()` is not enough. An engineer must understand the topology of their feature space. 
 
+Applying a discrete string-matching algorithm (Hamming) to a continuous floating-point coordinate space is mathematically nonsensical, as proven by the 55% accuracy.
+
