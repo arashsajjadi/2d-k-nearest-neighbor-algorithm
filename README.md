@@ -360,3 +360,5 @@ Simply calling `.fit()` and `.predict()` is not enough. An engineer must underst
 
 Applying a discrete string-matching algorithm (Hamming) to a continuous floating-point coordinate space is mathematically nonsensical, as proven by the 55% accuracy.
 
+However, aligning the metric with the data's inherent structure (Cosine similarity for angular dependencies, Euclidean for standard spatial proximity) yields robust, predictable, and mathematically sound models.
+
