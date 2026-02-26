@@ -362,3 +362,10 @@ Applying a discrete string-matching algorithm (Hamming) to a continuous floating
 
 However, aligning the metric with the data's inherent structure (Cosine similarity for angular dependencies, Euclidean for standard spatial proximity) yields robust, predictable, and mathematically sound models.
 
+### Summary of Test Set Accuracies:
+1. Cosine: 72.33%
+2. Euclidean: 72.13%
+3. Manhattan: 72.00%
+4. Jaccard: ~55%
+5. Hamming: ~55%
+
