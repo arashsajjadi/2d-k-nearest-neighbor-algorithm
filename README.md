@@ -369,3 +369,5 @@ However, aligning the metric with the data's inherent structure (Cosine similari
 4. Jaccard: ~55%
 5. Hamming: ~55%
 
+**End of Documentation.**
+
