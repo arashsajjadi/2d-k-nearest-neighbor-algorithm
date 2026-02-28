@@ -10,3 +10,5 @@ KNN is a non-parametric, lazy learning algorithm.
 ## 3. The Computer Science Perspective
 It requires O(N x D) time per query naively.
 
+To optimize this, structures like KD-Trees or Ball Trees are utilized.
+
