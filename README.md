@@ -89,3 +89,6 @@ Continuous spatial data requires continuous metrics.
 ## 1. Introduction and Objective
 The objective of this project is to evaluate distance metrics on a complex non-linear boundary.
 
+## 2. What is K-Nearest Neighbors (KNN)?
+KNN is a non-parametric, lazy learning algorithm.
+
