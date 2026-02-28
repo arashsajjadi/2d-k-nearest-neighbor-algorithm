@@ -92,3 +92,6 @@ The objective of this project is to evaluate distance metrics on a complex non-l
 ## 2. What is K-Nearest Neighbors (KNN)?
 KNN is a non-parametric, lazy learning algorithm.
 
+## 3. The Computer Science Perspective
+It requires O(N x D) time per query naively.
+
