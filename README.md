@@ -100,3 +100,6 @@ To optimize this, structures like KD-Trees or Ball Trees are utilized.
 ## 4. The Curse of Dimensionality
 As dimensions increase, data becomes sparse. We stick to 2D to avoid this.
 
+## 5. Mathematical Foundation of KNN
+Majority vote determines the class prediction.
+
