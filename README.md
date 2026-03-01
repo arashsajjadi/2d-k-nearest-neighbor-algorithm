@@ -21,3 +21,5 @@ Majority vote determines the class prediction.
 ## 6. Asymptotic Error Bounds
 The 1-NN error rate is bounded by the Bayes error rate.
 
+This means 1-NN is at worst twice as bad as the absolute best possible classifier.
+
