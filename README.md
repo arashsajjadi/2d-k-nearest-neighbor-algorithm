@@ -18,3 +18,6 @@ As dimensions increase, data becomes sparse. We stick to 2D to avoid this.
 ## 5. Mathematical Foundation of KNN
 Majority vote determines the class prediction.
 
+## 6. Asymptotic Error Bounds
+The 1-NN error rate is bounded by the Bayes error rate.
+
