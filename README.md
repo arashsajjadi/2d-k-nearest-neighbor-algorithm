@@ -126,3 +126,6 @@ Used for categorical data.
 ### 7.5. Hamming Distance
 Measures minimum substitutions for strings/vectors.
 
+## 8. Synthetic Data Generation
+We defined a custom topological surface using sine and cosine.
+
