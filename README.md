@@ -114,3 +114,6 @@ We analyzed Euclidean, Manhattan, Cosine, Jaccard, and Hamming.
 ### 7.1. Euclidean Distance
 Standard straight-line distance, rotation-invariant.
 
+### 7.2. Manhattan Distance
+City Block distance, highly robust to outliers.
+
