@@ -120,3 +120,6 @@ City Block distance, highly robust to outliers.
 ### 7.3. Cosine Distance
 Measures angle between two vectors.
 
+### 7.4. Jaccard Distance
+Used for categorical data.
+
