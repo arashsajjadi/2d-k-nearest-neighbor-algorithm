@@ -111,3 +111,6 @@ This means 1-NN is at worst twice as bad as the absolute best possible classifie
 ## 7. Distance Metrics Examined
 We analyzed Euclidean, Manhattan, Cosine, Jaccard, and Hamming.
 
+### 7.1. Euclidean Distance
+Standard straight-line distance, rotation-invariant.
+
