@@ -32,3 +32,6 @@ Standard straight-line distance, rotation-invariant.
 ### 7.2. Manhattan Distance
 City Block distance, highly robust to outliers.
 
+### 7.3. Cosine Distance
+Measures angle between two vectors.
+
