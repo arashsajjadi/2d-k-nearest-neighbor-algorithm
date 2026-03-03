@@ -38,3 +38,6 @@ Measures angle between two vectors.
 ### 7.4. Jaccard Distance
 Used for categorical data.
 
+### 7.5. Hamming Distance
+Measures minimum substitutions for strings/vectors.
+
