@@ -136,3 +136,6 @@ Generated 1980 random samples for training.
 ## 9. 3D Surface Visualization
 Using mpl_toolkits.mplot3d to view the boundary.
 
+## 10. Train, Validation, and Test Strategy
+Used train_test_split and created 1500 blind test points.
+
