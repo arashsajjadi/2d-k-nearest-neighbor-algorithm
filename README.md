@@ -48,3 +48,6 @@ The equation: C(x,y) = 2*sin(x/y) + 2*cos(x*y) + 0.15
 
 Generated 1980 random samples for training.
 
+## 9. 3D Surface Visualization
+Using mpl_toolkits.mplot3d to view the boundary.
+
