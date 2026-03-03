@@ -129,3 +129,5 @@ Measures minimum substitutions for strings/vectors.
 ## 8. Synthetic Data Generation
 We defined a custom topological surface using sine and cosine.
 
+The equation: C(x,y) = 2*sin(x/y) + 2*cos(x*y) + 0.15
+
