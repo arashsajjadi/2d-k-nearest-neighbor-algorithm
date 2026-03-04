@@ -139,3 +139,6 @@ Using mpl_toolkits.mplot3d to view the boundary.
 ## 10. Train, Validation, and Test Strategy
 Used train_test_split and created 1500 blind test points.
 
+## 11. Hyperparameter Tuning
+Iterated K from 1 to 300 to find the optimal neighbors.
+
