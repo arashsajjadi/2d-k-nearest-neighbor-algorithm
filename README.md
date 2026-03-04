@@ -63,3 +63,6 @@ Achieved test accuracy of 72.13%.
 ### Manhattan Results
 Yielded 72.0% on the test set.
 
+### Cosine Results
+Outperformed others with 72.33% accuracy.
+
