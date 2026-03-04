@@ -151,3 +151,6 @@ Yielded 72.0% on the test set.
 ### Cosine Results
 Outperformed others with 72.33% accuracy.
 
+## 12. The Failure of Jaccard and Hamming
+Both dropped to ~55% accuracy.
+
