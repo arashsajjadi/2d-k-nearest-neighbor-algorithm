@@ -145,3 +145,6 @@ Iterated K from 1 to 300 to find the optimal neighbors.
 ### Euclidean Results
 Achieved test accuracy of 72.13%.
 
+### Manhattan Results
+Yielded 72.0% on the test set.
+
