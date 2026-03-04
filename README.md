@@ -57,3 +57,6 @@ Used train_test_split and created 1500 blind test points.
 ## 11. Hyperparameter Tuning
 Iterated K from 1 to 300 to find the optimal neighbors.
 
+### Euclidean Results
+Achieved test accuracy of 72.13%.
+
