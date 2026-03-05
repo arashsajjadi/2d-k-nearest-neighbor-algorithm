@@ -69,3 +69,5 @@ Outperformed others with 72.33% accuracy.
 ## 12. The Failure of Jaccard and Hamming
 Both dropped to ~55% accuracy.
 
+Analytical Insight: Discrete metrics fail on continuous spatial coordinates.
+
