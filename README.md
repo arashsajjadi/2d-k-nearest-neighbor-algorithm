@@ -159,3 +159,6 @@ Analytical Insight: Discrete metrics fail on continuous spatial coordinates.
 ## 13. Comprehensive Results
 Cosine: 72.33% | Euclidean: 72.13% | Manhattan: 72.00% | Jaccard & Hamming: 55.46%
 
+## 14. Prerequisites
+numpy, pandas, matplotlib, scikit-learn
+
