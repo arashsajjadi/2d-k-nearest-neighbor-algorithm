@@ -165,3 +165,6 @@ numpy, pandas, matplotlib, scikit-learn
 ## 15. Execution
 Clone the repo, install dependencies, and run the script.
 
+## 16. Conclusion
+Continuous spatial data requires continuous metrics.
+
