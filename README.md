@@ -162,3 +162,6 @@ Cosine: 72.33% | Euclidean: 72.13% | Manhattan: 72.00% | Jaccard & Hamming: 55.4
 ## 14. Prerequisites
 numpy, pandas, matplotlib, scikit-learn
 
+## 15. Execution
+Clone the repo, install dependencies, and run the script.
+
